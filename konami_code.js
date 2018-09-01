@@ -18,5 +18,8 @@ const body = document.querySelector('body');
 
 function init() {
   
-  body.addEvenListener('keydown', function(e))
+  body.addEventListener('keydown', function(e) {
+    
+    
+  })
 }
