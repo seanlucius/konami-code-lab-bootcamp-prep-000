@@ -20,6 +20,11 @@ function init() {
   
   body.addEventListener('keydown', function(e) {
     
+    const key = e.key;
     
+    if (key === codes[index]) {
+      
+      index++
+    }
   })
 }
