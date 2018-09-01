@@ -24,7 +24,17 @@ function init() {
     
     if (key === codes[index]) {
       
-      index++
+      index++;
+      
+      if (index === codes.length) {
+        
+        alert("Congratulations!");
+        
+        index = 0;
+      }
+    } else {
+      
+      index = 0;
     }
-  })
+  });
 }
